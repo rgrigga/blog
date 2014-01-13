@@ -1,6 +1,7 @@
 {
     "name": "rgrigga/blog",
-    "description": "",
+    "description": "a simple blog",
+    "keywords":["laravel","blog","example"],
     "authors": [
         {
             "name": "rgrigga",
