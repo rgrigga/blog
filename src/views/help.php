@@ -137,6 +137,18 @@ If all above goes well, the browser should respond to http://ag.dev
 	git push origin master
 </code></pre>
 	</div>
+	<div class="sidebar">
+		<h1 id="names-versioning">Names & Versioning</h1>
+		<a href="https://packagist.org/about">All About Naming Conventions</a>
+		<h2 id="naming">Naming Conventions</h2>
+		<h2 id="versioning"><a href="http://semver.org/">Versioning</a></h2>
+		<blockquote>In the world of software management there exists a dread place called "dependency hell." The bigger your system grows and the more packages you integrate into your software, the more likely you are to find yourself, one day, in this pit of despair. <small><a href="http://semver.org/">semver.org</a></small></blockquote>
+		<p>from Packagist</p>
+		<h3 id="hooks">Github Hooks</h3>
+		<blockquote>It is highly recommended to set up the GitHub service hook for all your packages. This reduces the load on our side, and ensures your package is updated almost instantly. To do so you can go to your GitHub repository, click the "Admin" button, then "Service Hooks". Pick "Packagist" in the list, and add the API key you will find on your profile, plus your Packagist username if it is not the same as on GitHub. Check the "Active" box and submit the form. <small><a href="https://packagist.org/about"></a></small></blockquote>
+		<h1>Unit Testing</h1>
+		<p><a href="http://phpunit.de/manual/3.7/en/textui.html">php Unit Commands</a></p>
+	</div>
 	<footer>
 		<h1>That's it!</h1>
 	</footer>
