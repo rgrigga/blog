@@ -1,4 +1,20 @@
-/vendor
-composer.phar
-composer.lock
-.DS_Store
+#LARAVEL:
+	/bootstrap/compiled.php
+	/system
+	/output
+
+#COMPOSER:
+	/vendor
+	composer.phar
+	composer.lock
+	.DS_Store
+	Thumbs.db
+
+#STORM:
+	.idea/
+	.idea
+	.idea/workspace.xml
+	workspace.xml
+
+#SUBLIME:
+	sftp-config.json
