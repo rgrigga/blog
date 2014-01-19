@@ -38,7 +38,7 @@ class BlogServiceProvider extends ServiceProvider {
 		//WORKS, but shouldn't do it:
 		// echo \View::make('agrivault::hello');
 
-		\Session::flash('message','AgrivaultServiceProvider');
+		\Session::flash('message','BlogServiceProvider');
 	}
 
 	/**

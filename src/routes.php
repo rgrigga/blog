@@ -1,7 +1,12 @@
 <?php
-
+Route::get('video', function()
+{
+	
+	return View::make('blog::video');
+});
 Route::get('blog', function()
 {
+
 	return View::make('blog::home');
 });
 

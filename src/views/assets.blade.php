@@ -1,4 +1,4 @@
-<article class="dev" id="dev">
+<article class="right" id="dev">
 	<h1>Asset Management</h1>
 	<p>From the root of your application, run this:</p>
 

@@ -1,39 +1,12 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Laravel PHP Framework</title>
-	<style>
-	
-	</style>
+@extends('blog::templates.scaffold')
 
-</head>
-<body>
-	{{HTML::style('packages/rgrigga/blog/css/styles.css')}}
-
-<div class="dev">
-	<h1>Dev</h1>
-	<p>This is a dev notice</p>
-	<div class="alert">Alert</div>
-	<div class="alert alert-warning">Warning</div>
-</div>
-
-{{View::make('blog::assets')}}
-
-{{View::make('blog::vivio')}}
-
-<div class="top">
-		Get Help:
-</div>
-
-
-
+@section('main')
 	<div class="welcome">
 		<h1 class="huge">You Can.</h1>
 		<div>set this up from scratch</div>
-		<h2>Install Laravel</h2>
+		<h2 id="laravel"><a href="#install">Install Laravel</a></h2>
 		<pre><code>composer create-project laravel/laravel mysite --prefer-dist</code></pre>
-		<h1>OR</h1>
+		<span class="big">OR</span>
 
 		<pre>laravel new mysite</pre>
 		<p>(above assumes you already did <a href="http://laravel.com/docs/installation">this</a>: <code>mv ~/Downloads/laravel.phar /usr/bin/laravel</code>)</p>
@@ -188,9 +161,7 @@ or
 		<p><a href="http://phpunit.de/manual/3.7/en/textui.html">php Unit Commands</a></p>
 	</section>
 	
-
-	<footer>
-		<h1>That's it!</h1>
-	</footer>
-</body>
-</html>
+	<aside>
+		<li><a href="http://mah.everybody.org/docs/ssh">http://mah.everybody.org/docs/ssh</a></li>
+	</aside>
+@stop

@@ -25,5 +25,8 @@
             "Rgrigga\\Blog\\": "src/"
         }
     },
+    "scripts":{
+        "post-update":"php artisan asset:publish rgrigga/blog"
+    },
     "minimum-stability": "dev"
 }
