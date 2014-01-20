@@ -10,7 +10,7 @@
 
 	<link href="//vjs.zencdn.net/4.2/video-js.css" rel="stylesheet">
 	<script src="//vjs.zencdn.net/4.2/video.js"></script>
-	{{HTML::style('/public/packages/rgrigga/blog/css/blog.css')}}
+	{{HTML::style('packages/rgrigga/video/css/video.css')}}
 </head>
 <body>
 

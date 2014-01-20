@@ -4,7 +4,7 @@
 <h1>Videos</h1>
 <h2>Video 1</h2>
 <video id="video1" class="video-js vjs-default-skin"
-  controls preload="auto" width="800" height="600"
+  controls preload="auto" width="600" height="400"
   poster="/img/thinker.png"
   data-setup='{"example_option":true}'>
  <source src="/videos/hello.ogv" type='video/ogg' />
