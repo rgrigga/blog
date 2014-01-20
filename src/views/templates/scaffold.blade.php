@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Laravel PHP Framework</title>
-	{{HTML::style('packages/rgrigga/blog/css/styles.css')}}
+	{{HTML::style('packages/rgrigga/blog/css/blog.css')}}
 
 	<style>
 	</style>

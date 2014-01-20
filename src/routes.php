@@ -7,7 +7,7 @@ Route::get('video', function()
 Route::get('blog', function()
 {
 
-	return View::make('blog::home');
+	return View::make('blog::index');
 });
 
 Route::get('home', function()
