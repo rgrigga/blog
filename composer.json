@@ -5,7 +5,7 @@
     "repositories": [
         { 
             "type": "vcs", 
-            "url": "git@github.com:rgrigga/video.git"
+            "url": "https://github.com/rgrigga/video"
         }
     ],
     "authors": [
